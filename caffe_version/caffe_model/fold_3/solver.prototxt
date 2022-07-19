@@ -1,0 +1,17 @@
+test_iter: 50
+test_interval: 100
+base_lr: 0.01
+display: 1
+max_iter: 90000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.005
+stepsize: 3000
+snapshot: 1000
+snapshot_prefix: "/data/harrisonap/Data/lung_detection//train_test_splits/stagger_train_val_colour_mean_pretrain_0.01_0.005_fold_3/hed"
+net: "/data/harrisonap/Data/lung_detection//train_test_splits/stagger_train_val_colour_mean_pretrain_0.01_0.005_fold_3/train_val.prototxt"
+delta: 1e-08
+iter_size: 10
+momentum2: 0.999
+type: "Adam"
